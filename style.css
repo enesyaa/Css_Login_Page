@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #8cb9bd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  height: 350px;
+  width: 300px;
+  background-color: #fefbf6;
+  border-radius: 10px;
+}
+.container .header {
+  background-color: #b67352;
+  height: 20%;
+  border-radius: 10px 10px 0 0;
+  color: #fefbf6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.inputdiv {
+  background-color: #b67352;
+  height: 40px;
+  width: 230px;
+  margin-top: 30px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.inputdiv i {
+  color: #fefbf6;
+  margin: 12px;
+}
+.inputdiv input {
+  border: 1px solid #b67352;
+  outline: none;
+  height: 100%;
+  width: 100%;
+  border-radius: 0 4px 4px 0;
+  font-size: 20px;
+  padding-left: 5px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form a {
+  text-align: center;
+  margin: 10px;
+  color: grey;
+  cursor: pointer;
+}
+form a:hover {
+  color: black;
+}
+form button {
+  align-self: center;
+  color: #b67352;
+  border: #b67352 2px solid;
+  background-color: #fefbf6;
+  border-radius: 5px;
+  outline: none;
+  width: 200px;
+  font-size: 20px;
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.4s ease all;
+}
+form button:hover {
+  background-color: #b67352;
+  color: #fefbf6;
+}
+.main p {
+  margin-top: 10px;
+  color: gray;
+}
+.main p:hover {
+  color: black;
+}
+.main p a {
+  color: #ecb159;
+  text-decoration: underline;
+  cursor: pointer;
+}
